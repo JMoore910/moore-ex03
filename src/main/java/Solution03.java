@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class solution03 {
+public class Solution03 {
     /*
      *     UCF   COP3330 Fall 2021 Assignment 1 Solution03
      *     Copyright 2021 Sean Moore
@@ -16,8 +16,6 @@ public class solution03 {
         the author and quote are returned in a
         sentence via string concatenation
          */
-        //Challenge: Modify to receive
-
 
         Scanner input = new Scanner(System.in);
         String author, quote;
@@ -27,11 +25,5 @@ public class solution03 {
         author = input.nextLine();
 
         System.out.println(author + " says, \"" + quote + "\"");
-
-
-
-
-
-
     }
 }
