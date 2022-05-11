@@ -17,13 +17,17 @@ public class Solution03 {
         sentence via string concatenation
          */
 
+        //  Use a scanner for input
         Scanner input = new Scanner(System.in);
         String author, quote;
+        
+        //  Take two strings, a quote and an author, as input on two separate lines at prompt to the user
         System.out.printf("What is the quote? ");
         quote = input.nextLine();
         System.out.printf("Who said it? ");
-        author = input.nextLine();
-
+        author = input.nextLine()
+            
+        //  Print out the author and quote
         System.out.println(author + " says, \"" + quote + "\"");
     }
 }
